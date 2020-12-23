@@ -21,3 +21,4 @@ chmod 755 ./create_cert.sh
 you can use this for implements secure connection in ELK stack and etc (like Filebeat, Metricbeat)
 
 🔑 important, when use create_cert.sh, you have to input your DNS to (CN, FQRN) accuratly.
+also, this script use same Root CA. if Root CA Certificate diffrent when the servers communicate each server, you will got "bad_certificate" error log.
