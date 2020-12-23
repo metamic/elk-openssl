@@ -19,3 +19,5 @@ chmod 755 ./create_cert.sh
 ```
 
 you can use this for implements secure connection in ELK stack and etc (like Filebeat, Metricbeat)
+
+🔑 important, when use create_cert.sh, you have to input your DNS to (CN, FQRN) accuratly.
